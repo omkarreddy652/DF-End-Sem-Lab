@@ -166,7 +166,7 @@ Wireshark is a powerful **network protocol analyzer** that allows users to captu
 <summary>🚨 View Credential Extraction</summary>
 <br>
 <p align="center">
-  <img width="856" alt="Packet details showing plaintext credentials in HTTP form data" src="https://github.com/user-attachments/assets/da7fe228-4fa9-4c43-805a-ed1b2129a955" />
+  <img width="1918" height="1031" alt="Screenshot 2025-11-12 170022" src="https://github.com/user-attachments/assets/4cfc014e-1e0c-4f64-b623-d20e1bc02a77" />
 </p>
 </details>
 
@@ -176,75 +176,3 @@ Wireshark is a powerful **network protocol analyzer** that allows users to captu
 
 The experiment successfully demonstrates the interception of login credentials in a human-readable format. The analysis of the captured POST packet reveals the plaintext data that was transmitted over the network.
 
-🎯 **Key Achievements:**
-- ✅ Successfully configured Wireshark for network packet capture
-- ✅ Captured live network traffic during login attempt
-- ✅ Applied appropriate filters to isolate HTTP POST requests
-- ✅ Successfully extracted plaintext credentials from network packets
-- ✅ Demonstrated the security vulnerability of HTTP protocol
-- ✅ Documented the complete packet analysis workflow
-
-**📊 Analysis Summary:**
-- 🔍 **Protocol Analysis:** HTTP POST request containing form data
-- 📝 **Data Extraction:** Clear text username and password identification
-- 🚨 **Security Finding:** Credentials transmitted without encryption
-- 🌐 **Network Forensics:** Complete packet-level analysis of authentication flow
-
-**🛡️ Security Implications:**
-This result confirms the inherent security flaw of the **HTTP protocol**:
-- 🚨 **Vulnerability:** Any sensitive data sent over HTTP is transmitted in plaintext
-- 🎯 **Risk Level:** High - credentials easily intercepted by attackers
-- 🔓 **Exposure:** Network traffic accessible to anyone monitoring the network
-- ⚠️ **Impact:** Complete compromise of user authentication credentials
-
----
-
-## 📝 Notes
-
-⚠️ **Ethical Considerations:** Only perform packet capture analysis on networks you own or have explicit permission to monitor. Unauthorized network monitoring is illegal in many jurisdictions.
-
-🔒 **Legal Compliance:** Ensure all testing is conducted in controlled environments or with proper authorization. The demo website used is specifically designed for security testing purposes.
-
-🛡️ **Security Best Practices:**
-- Always use HTTPS for transmitting sensitive data
-- Implement proper SSL/TLS encryption for web applications
-- Never transmit passwords in plaintext
-- Use secure authentication mechanisms (OAuth, SAML, etc.)
-- Regular security audits of network communications
-
-💡 **Network Analysis Tips:**
-- **Display Filters:** Master Wireshark's filter syntax for efficient analysis
-- **Protocol Hierarchy:** Use Statistics → Protocol Hierarchy for traffic overview
-- **Follow Streams:** Right-click packets and "Follow TCP Stream" for complete conversations
-- **Time Analysis:** Use time-based filters to focus on specific periods
-
-🔧 **Advanced Wireshark Features:**
-- **Deep Packet Inspection:** Analyze application layer protocols
-- **Statistical Analysis:** Generate network usage reports and graphs
-- **Export Objects:** Extract files transmitted over HTTP/FTP
-- **Decrypt Traffic:** Analyze encrypted traffic with proper certificates
-
-⚡ **Common Filter Examples:**
-- `http.request.method == "POST"` - Show only HTTP POST requests
-- `tcp.port == 80` - Show traffic on port 80 (HTTP)
-- `ip.addr == 192.168.1.100` - Show traffic to/from specific IP
-- `dns` - Show only DNS traffic
-
-🎯 **Professional Applications:**
-- **Network Troubleshooting:** Identify connectivity and performance issues
-- **Security Analysis:** Detect suspicious network activity and intrusions
-- **Forensic Investigation:** Analyze network evidence in incident response
-- **Compliance Auditing:** Verify proper encryption and data handling
-
----
-
-**🔗 Related Tools:**
-- [tcpdump](https://www.tcpdump.org/) - Command-line packet analyzer
-- [NetworkMiner](https://www.netresec.com/?page=NetworkMiner) - Network forensic analysis tool
-- [Nmap](https://nmap.org/) - Network discovery and security auditing
-- [Burp Suite](https://portswigger.net/burp) - Web application security testing
-
----
-
-*📅 Last Updated: October 2025*
-*👨‍💻 Author: Digital Forensics Lab*

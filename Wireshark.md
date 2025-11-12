@@ -24,8 +24,7 @@
     - [Step 3: Stop Capture and Filter Traffic](#step-3-stop-capture-and-filter-traffic)
     - [Step 4: Inspect the Packet to Find Credentials](#step-4-inspect-the-packet-to-find-credentials)
   - [✅ Result](#-result)
-  - [📝 Notes](#-notes)
-
+ 
 ---
 
 ## 🎯 Aim

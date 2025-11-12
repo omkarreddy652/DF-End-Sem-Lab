@@ -136,7 +136,7 @@ Wireshark is a powerful **network protocol analyzer** that allows users to captu
 <summary>🔍 View Traffic Filtering</summary>
 <br>
 <p align="center">
-  <img width="600" alt="Wireshark display filter for HTTP POST packets" src="https://github.com/user-attachments/assets/9feaba3d-7443-4b27-ad5c-96c0cd9076e0" />
+  <img width="1919" height="1022" alt="Screenshot 2025-11-12 164006" src="https://github.com/user-attachments/assets/466cb20e-1334-499f-84e8-bee5282467e1" />
 </p>
 </details>
 

@@ -113,7 +113,7 @@ Wireshark is a powerful **network protocol analyzer** that allows users to captu
 <summary>🔐 View Login Process</summary>
 <br>
 <p align="center">
-  <img width="645" alt="Demo website login form with test credentials" src="https://github.com/user-attachments/assets/52371b26-88cc-4578-8535-4c50f6c7516d" />
+  <img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/5f937be9-f192-4f40-b227-73e689014eab" />
 </p>
 </details>
 

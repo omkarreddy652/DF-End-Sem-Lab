@@ -76,7 +76,7 @@ Wireshark is a powerful **network protocol analyzer** that allows users to captu
 <summary>🖥️ View Network Interface Selection</summary>
 <br>
 <p align="center">
-  <img width="859" alt="Wireshark interface selection screen" src="https://github.com/user-attachments/assets/d2d2f108-c7c4-4802-ac9e-c8635263ca5c" />
+ <img width="1893" height="994" alt="Screenshot 2025-11-12 161910" src="https://github.com/user-attachments/assets/51041c19-1f3a-4d7f-a482-b46f34bf51be" />
 </p>
 </details>
 
@@ -87,7 +87,7 @@ Wireshark is a powerful **network protocol analyzer** that allows users to captu
 <summary>📊 View Packet Capture Interface</summary>
 <br>
 <p align="center">
-  <img width="750" alt="Wireshark packet capture in progress" src="https://github.com/user-attachments/assets/542d082e-68d0-427d-a595-e90c7a25d1c0" />
+  <img width="1919" height="1023" alt="Screenshot 2025-11-12 162125" src="https://github.com/user-attachments/assets/83e4ce0d-2de6-4998-a0c8-8fcc3b0e137e" />
 </p>
 </details>
 
